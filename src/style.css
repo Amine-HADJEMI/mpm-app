@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ebeff2; /* Nouvelle couleur de l'arrière-plan */
+}
+
+#erreurs input {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: #e74c3c; /* Nouvelle couleur de fond */
+  padding: 16px;
+}
+
+.buttons {
+  width: 50%;
+  float: left;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.inputs {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+.bouton {
+  background-color: #292841; /* Nouvelle couleur de fond */
+  color: #ffffff; /* Nouvelle couleur du texte */
+  margin-left: 90px; /* Correction de la valeur manquante */
+  box-shadow: 2px 2px 5px grey;
+}
+
+canvas {
+  background: #ebeff2 none repeat scroll 0% 0% !important;
+}
+
+.infos {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  background-color: #ffffff; /* Nouvelle couleur de fond */
+  padding: 50px;
+  border-radius: 20px;
+  z-index: -1;
+  opacity: 0.5;
+  left: 50px;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #ffffff; /* Nouvelle couleur de fond */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.card a:hover {
+  color: #008cba; /* Nouvelle couleur au survol */
+}
+
+.lettre {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.duree {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.pred {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+}

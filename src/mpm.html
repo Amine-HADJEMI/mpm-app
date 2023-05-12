@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MPM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="konva/konva.min.js"></script>
+  </head>
+
+  <body class="background-color: #f2f2f2;font-family: Arial, sans-serif;">
+    <div id="main">
+      <div id="erreurs"></div>
+
+      <h1 onclick="location.reload()" style="text-align: center; margin-top: 50px;color: #333;margin-bottom: 30px;" >
+        Application de Gestion de Projet - MPM
+      </h1>
+
+      </div>
+      <div class="buttons">
+        <br />
+        <button class="card" onclick="ajouterInput()">
+          <h2>Ajouter une nouvelle tâche</h2>
+        </button>
+        <br />
+      
+        <button class="card" onclick="dessiner()">
+          <h2>
+            Générer graphe MPM
+          </h2>
+          </button>
+      </div>
+      <div id="inputs" class="inputs"></div>
+    </div>
+
+    <div id="container">
+      
+    </div>
+
+    <div style="">
+      <script src="functions.js"></script>
+
+    </div>
+    <script src="konva/Composant.js"></script>
+    <script src="konva/main.js"></script>
+  </body>
+</html>
